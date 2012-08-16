@@ -1,5 +1,5 @@
 {
-    "name": "Doctrine CSV Type",
+    "name": "josiah/doctrine-csv-type",
     "description": "Adds a 'csv' type which stores a numerically indexed array in the database as a comma separated string.",
     "license": "MIT",
     "authors": [
