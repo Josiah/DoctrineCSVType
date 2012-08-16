@@ -1,0 +1,20 @@
+{
+    "name": "Doctrine CSV Type",
+    "description": "Adds a 'csv' type which stores a numerically indexed array in the database as a comma separated string.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Josiah",
+            "email": "josiah@jjs.id.au",
+            "homepage": "jjs.id.au/josiah",
+            "role": "Developer",
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "doctrine/dbal": ">=2.1.5"
+    },
+    "autoload": {
+        "files": ["src/Doctrine/DBAL/Types/CommaSeparatedValueType.php"]
+    }
+}
